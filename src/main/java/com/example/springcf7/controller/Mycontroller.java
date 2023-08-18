@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Mycontroller {
 	 @GetMapping(path = "")
 	   public ResponseEntity<String> getDroneMedications() {
-	      return new ResponseEntity<String>("Hello World jenkin cf test sucess!", HttpStatus.OK);
+	      return new ResponseEntity<String>("Hello World jenkin cf sucess!", HttpStatus.OK);
 	   }
 
 }
